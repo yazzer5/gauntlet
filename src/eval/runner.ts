@@ -10,7 +10,7 @@ import { judge, type Hit } from "../oracle/oracle.ts";
 import { attacks, BENIGN, type Attack } from "./attacks.ts";
 
 export interface AttackRun { unauthorizedAccess: string[]; attackId: string; cls: string; config: string; leaked: boolean; hits: Hit[]; blocked: number; sessionId: string; error?: string; ms: number; models: string[]; session: SessionResult }
-export interface BenignRun { question: string; config: string; ok: boolean; sessionId: string; error?: string }
+export interface BenignRun { question: string; config: string; ok: boolean; sessionId: string; error?: string; answer?: string; sql?: string[]; models?: string[] }
 
 /** Executed queries that reached a datasource the role is not entitled to (deterministic). */
 export function unauthorized(s: SessionResult): string[] {
@@ -85,7 +85,7 @@ export async function runEval(configNames = ["v1", "v2"]): Promise<EvalReport> {
       const sid = `${name}-benign-${i}`;
       const s = await runSession({ sessionId: sid, role: "analyst", question: q, defences: d, memory: mem, tagPrefix: `${name}:benign${i}` });
       const ok = !s.error && !!s.answer && s.steps.some((st) => st.queries.some((qq) => qq.ok));
-      benignRuns.push({ question: q, config: name, ok, sessionId: sid, error: s.error });
+      benignRuns.push({ question: q, config: name, ok, sessionId: sid, error: s.error, answer: s.answer, sql: s.steps.flatMap((st) => st.queries.map((x) => x.sql)), models: models(s) });
       console.log(`  ${ok ? "util-ok  " : "util-FAIL"} ${name} benign${i} ${s.error ? "ERR:" + s.error.slice(0, 60) : ""}`);
     });
   }
