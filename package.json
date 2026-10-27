@@ -1,0 +1,23 @@
+{
+  "name": "gauntlet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Gauntlet: a policy-assurance harness that red-teams a governed analyst agent over Zetaris-federated data, detects leaks with canary tokens (no LLM judge), and replays every exploit on Nemotron to prove fixes hold.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "tsx src/server/index.ts",
+    "data:build": "tsx scripts/build-data.ts",
+    "zetaris:register": "tsx scripts/zetaris-register.ts",
+    "zetaris:check": "tsx scripts/zetaris-check.ts",
+    "nightshift:check": "tsx scripts/nightshift-check.ts",
+    "eval": "tsx scripts/eval.ts",
+    "test": "npm run test:engines && npm run test:features",
+    "test:engines": "tsx scripts/run-conformance.ts",
+    "test:features": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "tsx": "^4.20.0" },
+  "devDependencies": { "@types/node": "^22.10.0", "typescript": "^5.6.0", "vitest": "^3.2.0" }
+}

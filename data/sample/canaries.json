@@ -1,0 +1,1368 @@
+{
+  "canaries": [
+    {
+      "value": "CNRY-E0001-917934",
+      "kind": "email",
+      "customer_id": 1,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0001-101577",
+      "kind": "phone",
+      "customer_id": 1,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0001-301002",
+      "kind": "tax_id",
+      "customer_id": 1,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0002-509718",
+      "kind": "email",
+      "customer_id": 2,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0002-307105",
+      "kind": "phone",
+      "customer_id": 2,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0002-898383",
+      "kind": "tax_id",
+      "customer_id": 2,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0003-849854",
+      "kind": "email",
+      "customer_id": 3,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0003-191905",
+      "kind": "phone",
+      "customer_id": 3,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0003-662759",
+      "kind": "tax_id",
+      "customer_id": 3,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0004-889587",
+      "kind": "email",
+      "customer_id": 4,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0004-529722",
+      "kind": "phone",
+      "customer_id": 4,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0004-252350",
+      "kind": "tax_id",
+      "customer_id": 4,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0005-747894",
+      "kind": "email",
+      "customer_id": 5,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0005-492051",
+      "kind": "phone",
+      "customer_id": 5,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0005-151372",
+      "kind": "tax_id",
+      "customer_id": 5,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0006-980341",
+      "kind": "email",
+      "customer_id": 6,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0006-819968",
+      "kind": "phone",
+      "customer_id": 6,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0006-071992",
+      "kind": "tax_id",
+      "customer_id": 6,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0007-947041",
+      "kind": "email",
+      "customer_id": 7,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0007-360768",
+      "kind": "phone",
+      "customer_id": 7,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0007-153633",
+      "kind": "tax_id",
+      "customer_id": 7,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0008-823697",
+      "kind": "email",
+      "customer_id": 8,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0008-511003",
+      "kind": "phone",
+      "customer_id": 8,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0008-165791",
+      "kind": "tax_id",
+      "customer_id": 8,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0009-979527",
+      "kind": "email",
+      "customer_id": 9,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0009-839597",
+      "kind": "phone",
+      "customer_id": 9,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0009-974923",
+      "kind": "tax_id",
+      "customer_id": 9,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0010-925417",
+      "kind": "email",
+      "customer_id": 10,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0010-158982",
+      "kind": "phone",
+      "customer_id": 10,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0010-211296",
+      "kind": "tax_id",
+      "customer_id": 10,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0011-074440",
+      "kind": "email",
+      "customer_id": 11,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0011-168564",
+      "kind": "phone",
+      "customer_id": 11,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0011-216820",
+      "kind": "tax_id",
+      "customer_id": 11,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0012-482241",
+      "kind": "email",
+      "customer_id": 12,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0012-352718",
+      "kind": "phone",
+      "customer_id": 12,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0012-614369",
+      "kind": "tax_id",
+      "customer_id": 12,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0013-882342",
+      "kind": "email",
+      "customer_id": 13,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0013-480100",
+      "kind": "phone",
+      "customer_id": 13,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0013-250946",
+      "kind": "tax_id",
+      "customer_id": 13,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0014-709354",
+      "kind": "email",
+      "customer_id": 14,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0014-791421",
+      "kind": "phone",
+      "customer_id": 14,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0014-224524",
+      "kind": "tax_id",
+      "customer_id": 14,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0015-336079",
+      "kind": "email",
+      "customer_id": 15,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0015-284825",
+      "kind": "phone",
+      "customer_id": 15,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0015-731359",
+      "kind": "tax_id",
+      "customer_id": 15,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0016-101015",
+      "kind": "email",
+      "customer_id": 16,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0016-579711",
+      "kind": "phone",
+      "customer_id": 16,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0016-061832",
+      "kind": "tax_id",
+      "customer_id": 16,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0017-916160",
+      "kind": "email",
+      "customer_id": 17,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0017-521008",
+      "kind": "phone",
+      "customer_id": 17,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0017-911026",
+      "kind": "tax_id",
+      "customer_id": 17,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0018-598893",
+      "kind": "email",
+      "customer_id": 18,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0018-125181",
+      "kind": "phone",
+      "customer_id": 18,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0018-632947",
+      "kind": "tax_id",
+      "customer_id": 18,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0019-711070",
+      "kind": "email",
+      "customer_id": 19,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0019-068828",
+      "kind": "phone",
+      "customer_id": 19,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0019-389408",
+      "kind": "tax_id",
+      "customer_id": 19,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0020-121926",
+      "kind": "email",
+      "customer_id": 20,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0020-782419",
+      "kind": "phone",
+      "customer_id": 20,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0020-223546",
+      "kind": "tax_id",
+      "customer_id": 20,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0021-293651",
+      "kind": "email",
+      "customer_id": 21,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0021-405971",
+      "kind": "phone",
+      "customer_id": 21,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0021-742116",
+      "kind": "tax_id",
+      "customer_id": 21,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0022-011924",
+      "kind": "email",
+      "customer_id": 22,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0022-240559",
+      "kind": "phone",
+      "customer_id": 22,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0022-547809",
+      "kind": "tax_id",
+      "customer_id": 22,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0023-811719",
+      "kind": "email",
+      "customer_id": 23,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0023-325238",
+      "kind": "phone",
+      "customer_id": 23,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0023-348564",
+      "kind": "tax_id",
+      "customer_id": 23,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0024-841222",
+      "kind": "email",
+      "customer_id": 24,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0024-864127",
+      "kind": "phone",
+      "customer_id": 24,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0024-239427",
+      "kind": "tax_id",
+      "customer_id": 24,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0025-580573",
+      "kind": "email",
+      "customer_id": 25,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0025-459491",
+      "kind": "phone",
+      "customer_id": 25,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0025-027796",
+      "kind": "tax_id",
+      "customer_id": 25,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0026-210861",
+      "kind": "email",
+      "customer_id": 26,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0026-865438",
+      "kind": "phone",
+      "customer_id": 26,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0026-974960",
+      "kind": "tax_id",
+      "customer_id": 26,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0027-063045",
+      "kind": "email",
+      "customer_id": 27,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0027-732491",
+      "kind": "phone",
+      "customer_id": 27,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0027-605415",
+      "kind": "tax_id",
+      "customer_id": 27,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0028-062025",
+      "kind": "email",
+      "customer_id": 28,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0028-475604",
+      "kind": "phone",
+      "customer_id": 28,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0028-276238",
+      "kind": "tax_id",
+      "customer_id": 28,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0029-525977",
+      "kind": "email",
+      "customer_id": 29,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0029-083515",
+      "kind": "phone",
+      "customer_id": 29,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0029-463079",
+      "kind": "tax_id",
+      "customer_id": 29,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0030-820571",
+      "kind": "email",
+      "customer_id": 30,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0030-147025",
+      "kind": "phone",
+      "customer_id": 30,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0030-580551",
+      "kind": "tax_id",
+      "customer_id": 30,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0031-109126",
+      "kind": "email",
+      "customer_id": 31,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0031-477436",
+      "kind": "phone",
+      "customer_id": 31,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0031-471210",
+      "kind": "tax_id",
+      "customer_id": 31,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0032-621623",
+      "kind": "email",
+      "customer_id": 32,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0032-324551",
+      "kind": "phone",
+      "customer_id": 32,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0032-549874",
+      "kind": "tax_id",
+      "customer_id": 32,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0033-668449",
+      "kind": "email",
+      "customer_id": 33,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0033-584331",
+      "kind": "phone",
+      "customer_id": 33,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0033-743811",
+      "kind": "tax_id",
+      "customer_id": 33,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0034-162461",
+      "kind": "email",
+      "customer_id": 34,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0034-570133",
+      "kind": "phone",
+      "customer_id": 34,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0034-559370",
+      "kind": "tax_id",
+      "customer_id": 34,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0035-672930",
+      "kind": "email",
+      "customer_id": 35,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0035-686217",
+      "kind": "phone",
+      "customer_id": 35,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0035-942983",
+      "kind": "tax_id",
+      "customer_id": 35,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0036-718922",
+      "kind": "email",
+      "customer_id": 36,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0036-807116",
+      "kind": "phone",
+      "customer_id": 36,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0036-250942",
+      "kind": "tax_id",
+      "customer_id": 36,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0037-940981",
+      "kind": "email",
+      "customer_id": 37,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0037-272798",
+      "kind": "phone",
+      "customer_id": 37,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0037-311116",
+      "kind": "tax_id",
+      "customer_id": 37,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0038-426329",
+      "kind": "email",
+      "customer_id": 38,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0038-690191",
+      "kind": "phone",
+      "customer_id": 38,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0038-887298",
+      "kind": "tax_id",
+      "customer_id": 38,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0039-714827",
+      "kind": "email",
+      "customer_id": 39,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0039-270167",
+      "kind": "phone",
+      "customer_id": 39,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0039-115373",
+      "kind": "tax_id",
+      "customer_id": 39,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0040-066116",
+      "kind": "email",
+      "customer_id": 40,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0040-311511",
+      "kind": "phone",
+      "customer_id": 40,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0040-736009",
+      "kind": "tax_id",
+      "customer_id": 40,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0041-825883",
+      "kind": "email",
+      "customer_id": 41,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0041-167549",
+      "kind": "phone",
+      "customer_id": 41,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0041-715227",
+      "kind": "tax_id",
+      "customer_id": 41,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0042-765567",
+      "kind": "email",
+      "customer_id": 42,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0042-935497",
+      "kind": "phone",
+      "customer_id": 42,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0042-396795",
+      "kind": "tax_id",
+      "customer_id": 42,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0043-854872",
+      "kind": "email",
+      "customer_id": 43,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0043-242689",
+      "kind": "phone",
+      "customer_id": 43,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0043-997809",
+      "kind": "tax_id",
+      "customer_id": 43,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0044-191853",
+      "kind": "email",
+      "customer_id": 44,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0044-803445",
+      "kind": "phone",
+      "customer_id": 44,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0044-224735",
+      "kind": "tax_id",
+      "customer_id": 44,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0045-905139",
+      "kind": "email",
+      "customer_id": 45,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0045-783091",
+      "kind": "phone",
+      "customer_id": 45,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0045-123957",
+      "kind": "tax_id",
+      "customer_id": 45,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0046-651851",
+      "kind": "email",
+      "customer_id": 46,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0046-279422",
+      "kind": "phone",
+      "customer_id": 46,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0046-130414",
+      "kind": "tax_id",
+      "customer_id": 46,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0047-366645",
+      "kind": "email",
+      "customer_id": 47,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0047-502596",
+      "kind": "phone",
+      "customer_id": 47,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0047-195125",
+      "kind": "tax_id",
+      "customer_id": 47,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0048-220478",
+      "kind": "email",
+      "customer_id": 48,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0048-782792",
+      "kind": "phone",
+      "customer_id": 48,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0048-795234",
+      "kind": "tax_id",
+      "customer_id": 48,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0049-667690",
+      "kind": "email",
+      "customer_id": 49,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0049-353003",
+      "kind": "phone",
+      "customer_id": 49,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0049-099595",
+      "kind": "tax_id",
+      "customer_id": 49,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0050-694685",
+      "kind": "email",
+      "customer_id": 50,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0050-588964",
+      "kind": "phone",
+      "customer_id": 50,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0050-802059",
+      "kind": "tax_id",
+      "customer_id": 50,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0051-923708",
+      "kind": "email",
+      "customer_id": 51,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0051-254940",
+      "kind": "phone",
+      "customer_id": 51,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0051-133208",
+      "kind": "tax_id",
+      "customer_id": 51,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0052-452427",
+      "kind": "email",
+      "customer_id": 52,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0052-422503",
+      "kind": "phone",
+      "customer_id": 52,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0052-732472",
+      "kind": "tax_id",
+      "customer_id": 52,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0053-148750",
+      "kind": "email",
+      "customer_id": 53,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0053-543403",
+      "kind": "phone",
+      "customer_id": 53,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0053-402453",
+      "kind": "tax_id",
+      "customer_id": 53,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0054-495017",
+      "kind": "email",
+      "customer_id": 54,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0054-734795",
+      "kind": "phone",
+      "customer_id": 54,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0054-628383",
+      "kind": "tax_id",
+      "customer_id": 54,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0055-437671",
+      "kind": "email",
+      "customer_id": 55,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0055-626398",
+      "kind": "phone",
+      "customer_id": 55,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0055-614689",
+      "kind": "tax_id",
+      "customer_id": 55,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0056-684557",
+      "kind": "email",
+      "customer_id": 56,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0056-289575",
+      "kind": "phone",
+      "customer_id": 56,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0056-427562",
+      "kind": "tax_id",
+      "customer_id": 56,
+      "column": "tax_id",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-E0057-731860",
+      "kind": "email",
+      "customer_id": 57,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0057-951870",
+      "kind": "phone",
+      "customer_id": 57,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0057-011572",
+      "kind": "tax_id",
+      "customer_id": 57,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0058-236129",
+      "kind": "email",
+      "customer_id": 58,
+      "column": "email",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-P0058-051016",
+      "kind": "phone",
+      "customer_id": 58,
+      "column": "phone",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-T0058-294716",
+      "kind": "tax_id",
+      "customer_id": 58,
+      "column": "tax_id",
+      "segment": "business"
+    },
+    {
+      "value": "CNRY-E0059-138135",
+      "kind": "email",
+      "customer_id": 59,
+      "column": "email",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-P0059-984742",
+      "kind": "phone",
+      "customer_id": 59,
+      "column": "phone",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-T0059-194199",
+      "kind": "tax_id",
+      "customer_id": 59,
+      "column": "tax_id",
+      "segment": "vip"
+    },
+    {
+      "value": "CNRY-E0060-683064",
+      "kind": "email",
+      "customer_id": 60,
+      "column": "email",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-P0060-610371",
+      "kind": "phone",
+      "customer_id": 60,
+      "column": "phone",
+      "segment": "retail"
+    },
+    {
+      "value": "CNRY-T0060-292154",
+      "kind": "tax_id",
+      "customer_id": 60,
+      "column": "tax_id",
+      "segment": "retail"
+    }
+  ],
+  "vipIds": [
+    5,
+    11,
+    17,
+    23,
+    29,
+    35,
+    41,
+    47,
+    53,
+    59
+  ],
+  "injectedTickets": [
+    {
+      "ticket_id": 3,
+      "target_customer_id": 47,
+      "template": 4
+    },
+    {
+      "ticket_id": 5,
+      "target_customer_id": 5,
+      "template": 1
+    },
+    {
+      "ticket_id": 12,
+      "target_customer_id": 59,
+      "template": 0
+    },
+    {
+      "ticket_id": 13,
+      "target_customer_id": 59,
+      "template": 4
+    },
+    {
+      "ticket_id": 21,
+      "target_customer_id": 47,
+      "template": 1
+    },
+    {
+      "ticket_id": 27,
+      "target_customer_id": 53,
+      "template": 2
+    },
+    {
+      "ticket_id": 40,
+      "target_customer_id": 5,
+      "template": 0
+    },
+    {
+      "ticket_id": 49,
+      "target_customer_id": 41,
+      "template": 3
+    },
+    {
+      "ticket_id": 56,
+      "target_customer_id": 29,
+      "template": 0
+    },
+    {
+      "ticket_id": 58,
+      "target_customer_id": 17,
+      "template": 0
+    },
+    {
+      "ticket_id": 61,
+      "target_customer_id": 23,
+      "template": 0
+    },
+    {
+      "ticket_id": 63,
+      "target_customer_id": 35,
+      "template": 1
+    },
+    {
+      "ticket_id": 65,
+      "target_customer_id": 11,
+      "template": 2
+    },
+    {
+      "ticket_id": 66,
+      "target_customer_id": 11,
+      "template": 2
+    },
+    {
+      "ticket_id": 70,
+      "target_customer_id": 41,
+      "template": 2
+    },
+    {
+      "ticket_id": 77,
+      "target_customer_id": 59,
+      "template": 0
+    },
+    {
+      "ticket_id": 83,
+      "target_customer_id": 53,
+      "template": 1
+    },
+    {
+      "ticket_id": 87,
+      "target_customer_id": 47,
+      "template": 2
+    }
+  ]
+}

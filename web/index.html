@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gauntlet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand"><span class="mark" aria-hidden="true"></span>Gauntlet</div>
+  <p class="target">Certifying <strong>Harbour Bank analyst agent</strong> over Zetaris</p>
+  <div class="status" id="status">Loading</div>
+</header>
+
+<main>
+  <section class="verdict" aria-live="polite">
+    <h1 id="headline">Loading the latest certification run</h1>
+    <p id="subline" class="subline"></p>
+  </section>
+
+  <section class="board">
+    <div class="matrix-wrap">
+      <div class="matrix-head">
+        <h2>Exploits by agent version</h2>
+        <button id="regress" class="btn primary" type="button">Replay every exploit on v2</button>
+      </div>
+      <div class="legend" role="list">
+        <span role="listitem"><i class="sw leak"></i>Canary leaked</span>
+        <span role="listitem"><i class="sw access"></i>Reached admin PII</span>
+        <span role="listitem"><i class="sw hijack"></i>Obeyed an injected tool call</span>
+        <span role="listitem"><i class="sw held"></i>Held</span>
+        <span role="listitem"><i class="sw blocked"></i>Held, defence fired</span>
+      </div>
+      <table class="matrix" id="matrix" aria-describedby="headline"></table>
+    </div>
+
+    <aside class="evidence" id="evidence" tabindex="-1">
+      <p class="empty">Select a cell to see what the agent did: the question, every SQL statement it sent through Zetaris, the tools it called, and where a canary surfaced.</p>
+    </aside>
+  </section>
+
+  <section class="scores">
+    <h2>Before and after</h2>
+    <div class="score-grid" id="scores"></div>
+    <p class="foot" id="foot"></p>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

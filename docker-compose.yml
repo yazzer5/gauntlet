@@ -1,0 +1,26 @@
+# Gauntlet's synthetic "enterprise" source system (CRM, ops, support) that Zetaris federates in place.
+# Separate from SpikeTrace's DB (5433) so both can run. Zetaris reaches it on host.docker.internal:5434.
+services:
+  gauntlet-db:
+    image: postgres:16
+    container_name: gauntlet-db
+    environment:
+      POSTGRES_USER: ${PGUSER:-gauntlet_owner}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-gauntlet_owner_local_only}
+      POSTGRES_DB: postgres
+      PG_ANALYST_USER: ${PG_ANALYST_USER:-gauntlet_analyst}
+      PG_ANALYST_PASSWORD: ${PG_ANALYST_PASSWORD:-analyst_local_only}
+      PG_ADMIN_USER: ${PG_ADMIN_USER:-gauntlet_admin}
+      PG_ADMIN_PASSWORD: ${PG_ADMIN_PASSWORD:-admin_local_only}
+    ports:
+      - "${PGPORT:-5434}:5432"
+    volumes:
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+      - ./data/sample:/seed:ro
+      - gauntlet-pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${PGUSER:-gauntlet_owner}"]
+      interval: 5s
+      retries: 20
+volumes:
+  gauntlet-pg:
